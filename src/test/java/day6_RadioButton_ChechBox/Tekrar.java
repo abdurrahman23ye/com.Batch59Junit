@@ -41,8 +41,8 @@ public class Tekrar {
 
     }
 
-//    @After
-  //  public void tearsDown() {driver.close();}
+ @After
+ public void tearsDown() {driver.close();}
 
     @Test
     public void test1() {
